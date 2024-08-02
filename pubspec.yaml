@@ -1,0 +1,37 @@
+name: rogue_shooter
+description: A simple game benchmarking the collision detection performance.
+homepage: https://github.com/flame-engine/flame/tree/main/examples/games/rogue_shooter
+publish_to: 'none'
+
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.2 <4.0.0"
+  flutter: ">=3.16.2-2"
+
+dependencies:
+  audioplayers_aurora:
+    git:
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
+      ref: feat/audioplayers-aurora
+      path: packages/audioplayers/audioplayers_aurora
+  flame: ^1.15.0
+  flame_audio: ^2.1.8
+  flutter:
+    sdk: flutter
+  path_provider_aurora:
+    git:
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
+      ref: path_provider_aurora-0.5.1
+      path: packages/path_provider/path_provider_aurora
+
+
+dev_dependencies:
+  flame_lint: ^1.1.2
+
+flutter:
+  assets:
+    - assets/images/rogue_shooter/
+    - assets/audio/music/bg_music.ogg
+    - assets/audio/sfx/fire_1.mp3
+    - assets/audio/sfx/fire_2.mp3

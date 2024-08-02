@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=rogue_shooter
+Comment=A new Flutter project.
+Icon=com.keygenqt.rogue_shooter
+Exec=/usr/bin/com.keygenqt.rogue_shooter
+X-Nemo-Application-Type=silica-qt5
+
+[X-Application]
+Permissions=Audio
+OrganizationName=com.keygenqt
+ApplicationName=rogue_shooter
